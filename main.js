@@ -56,8 +56,7 @@ window.onload = function(){
     document.cookie = "Nombre=Diana; expires="+Cookie.limite(data)+";";
     var date = new Date();
     let cadena = date.toGMTString();
-    console.log(cadena);
-    document.body(cadena);
+    console.log(cadena);    
 
     // Cookie.limite.call(expire).then(res=>{
     //     console.log(res);
